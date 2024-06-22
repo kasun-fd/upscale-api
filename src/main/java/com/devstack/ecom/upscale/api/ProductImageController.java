@@ -14,6 +14,7 @@ import java.sql.SQLException;
 @RestController
 @RequestMapping("/api/v1/product_image")
 @RequiredArgsConstructor
+@CrossOrigin
 public class ProductImageController {
 
     private final ProductImageService imageService;
